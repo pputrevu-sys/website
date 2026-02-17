@@ -741,8 +741,10 @@ section,
 
 @media (max-width: 991px) {
   .about .profile-picture {
-    min-height: auto;
-    padding: 40px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 30px;
   }
 }
 
