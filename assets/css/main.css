@@ -727,7 +727,11 @@ section,
   font-size: 1.2rem;
 }
 
-.hero .hero-image {
+/*--------------------------------------------------------------
+# About Section
+--------------------------------------------------------------*/
+
+.about .profile-picture {
   position: relative;
   display: flex;
   align-items: center;
@@ -736,26 +740,26 @@ section,
 }
 
 @media (max-width: 991px) {
-  .hero .hero-image {
+  .about .profile-picture {
     min-height: auto;
     padding: 40px 30px;
   }
 }
 
-.hero .image-container {
+.about .image-container {
   position: relative;
   max-width: 500px;
   width: 100%;
 }
 
-.hero .hero-main-image {
+.about .profile-main-image {
   border-radius: 20px;
   box-shadow: 0 20px 60px color-mix(in srgb, var(--default-color), transparent 85%);
   position: relative;
   z-index: 2;
 }
 
-.hero .image-overlay {
+.about .image-overlay {
   position: absolute;
   top: 20px;
   left: 20px;
@@ -766,7 +770,7 @@ section,
   z-index: 1;
 }
 
-.hero .floating-elements {
+.about .floating-elements {
   position: absolute;
   top: 0;
   left: 0;
@@ -775,7 +779,7 @@ section,
   z-index: 3;
 }
 
-.hero .floating-card {
+.about .floating-card {
   position: absolute;
   background-color: var(--surface-color);
   padding: 15px 20px;
@@ -789,62 +793,62 @@ section,
 }
 
 @media (max-width: 768px) {
-  .hero .floating-card {
+  .about .floating-card {
     padding: 10px 15px;
     font-size: 0.9rem;
   }
 }
 
-.hero .floating-card i {
+.about .floating-card i {
   font-size: 1.5rem;
   color: var(--accent-color);
 }
 
 @media (max-width: 768px) {
-  .hero .floating-card i {
+  .about .floating-card i {
     font-size: 1.2rem;
   }
 }
 
-.hero .floating-card span {
+.about .floating-card span {
   font-weight: 600;
   color: var(--default-color);
 }
 
-.hero .floating-card.card-1 {
+.about .floating-card.card-1 {
   top: 10%;
   left: -10%;
   animation-delay: 0s;
 }
 
 @media (max-width: 768px) {
-  .hero .floating-card.card-1 {
+  .about .floating-card.card-1 {
     top: 5%;
     left: -5%;
   }
 }
 
-.hero .floating-card.card-2 {
+.about .floating-card.card-2 {
   top: 60%;
   right: -15%;
   animation-delay: 2s;
 }
 
 @media (max-width: 768px) {
-  .hero .floating-card.card-2 {
+  .about .floating-card.card-2 {
     top: 70%;
     right: -10%;
   }
 }
 
-.hero .floating-card.card-3 {
+.about .floating-card.card-3 {
   bottom: 15%;
   left: -5%;
   animation-delay: 4s;
 }
 
 @media (max-width: 768px) {
-  .hero .floating-card.card-3 {
+  .about .floating-card.card-3 {
     bottom: 10%;
     left: 0%;
   }
@@ -862,9 +866,7 @@ section,
   }
 }
 
-/*--------------------------------------------------------------
-# About Section
---------------------------------------------------------------*/
+
 .about .profile-image-wrapper {
   position: relative;
 }
@@ -912,6 +914,8 @@ section,
   max-width: 250px;
   margin: 0 auto;
 }
+
+/* CHANGE THIS STUFF */
 
 .about .about-content .intro {
   margin-bottom: 40px;
