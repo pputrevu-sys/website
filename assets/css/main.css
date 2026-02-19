@@ -745,13 +745,13 @@ section,
     align-items: center;
     justify-content: center;
     padding: 0 30px;
+    margin-bottom: 60px;
   }
 }
 
 .about .image-container {
-  position: relative;
-  max-width: 500px;
-  width: 100%;
+  overflow: visible;
+  margin: 20px 40px;
 }
 
 .about .profile-main-image {
